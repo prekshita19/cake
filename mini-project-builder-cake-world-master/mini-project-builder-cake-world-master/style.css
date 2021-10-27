@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Fill your code*/
+
+
+body{
+ background-color:rgb(155, 65, 155);
+ /* background-color:rgb(88, 6, 6); */
+}
+
+#header{
+    background-color:rgb(88, 6, 6);
+    height:100px;
+    width:100%;
+    padding:10px;
+}
+
+#cakeatmiddleheader{
+    height: 200px;
+    width: 200px;
+    background-color:black;
+    border-radius: 50%;
+    color:white;
+    font-size: 25px;
+    box-shadow: -2px 2px 4px 2px rgba(216, 52, 216, 0.486);
+}
+
+#centerbody{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    /* background-color:rgb(155, 65, 155) */
+}
+
+
+#centerbody{
+    height:375px;
+    width:100%;
+    /* border: 2px solid black; */
+}
+
+
+#rates{
+    margin:10%;
+    background-image: url("assets/list_template.png");
+    background-repeat: no-repeat;
+}
+
+#selected-items{
+    margin:10%;
+    background-image: url("assets/list_template.png");
+    background-repeat: no-repeat;
+}
+
+#ratesinside{
+    color:white;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
+#ratesinside>h4{
+    text-align: center;
+    padding-right:145px;
+}
+
+#ratesinside>p{
+    padding-top:15px;
+}
+
+
+#footer{
+    background-color:rgb(88, 6, 6);
+    height:100px;
+    width:100%;
+}
+
+
+#footer>button{
+    margin:30px;
+    height: 30px;
+    width:150px;
+    background-color:rgb(155, 65, 155);
+    color:white;
+    font-size:1.2em;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight:bold;
+}
+
+
+#footer>button:active{
+    color:orange;
+    background-color:white;
+    border:2px solid black;
+}
+
+
+#cake-image{
+    height:375px;
+    margin-top:200px;
+}
+
+
+#cake-image>div{
+    border-radius: 10px;
+}
+
+#total_price{
+    color:white;
+    padding-left:50px;
+    padding-top:25px;
+}
+
+
+
+
+
+#layer1{
+    width: 245px;
+    visibility: hidden;
+    background-color: red;
+}
+
+#layer2{
+    width: 200px;
+    left: 40px;
+    background-color: white;
+    visibility: hidden;
+}
+
+#layer3{
+    width: 160px;
+    left: 60px;
+    background-color: yellow;
+    visibility: hidden;
+}
+
+#layer4{
+    width: 120px;
+    left: 80px;
+    background-color: pink;
+    visibility: hidden;
+}
+
+#layer5{
+    width: 80px;
+    left: 100px;
+    background-color: orange;
+    visibility: hidden;
+}

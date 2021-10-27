@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cake World</title>
+</head>
+<body>
+    <!-- header -->
+    <div id="header" align="center">
+        <div id="cakeatmiddleheader">
+            <img src="assets/cake.png"><br>
+            Cake World
+        </div>
+    </div>
+
+    <!-- center body -->
+
+    <div id="centerbody">
+            <div id="rates">
+                <!-- <img src="assets/list_template.png" alt="rates"> -->
+                <div id="ratesinside">
+                    <h4>Prices</h4>
+                    <p>Chocolate ...................300</p>
+                    <p>Strawberry ................100</p>
+                    <p>Butter Scotch ..........200</p>
+                    <p>Vanilla .........................250</p>
+                    <p>Red Velvet .................350</p>
+                </div>
+            </div>
+        <!-- ------------------- -->
+            <div id="cake-image" align="center">
+                <div>
+                    <input type="image" src="assets/candle.png" height="35px" id="imagecake" width="35px" style="visibility:hidden ">
+                </div>
+                <div id="layer5">&nbsp;</div>
+                <div id="layer4">&nbsp;</div>
+                <div id="layer3">&nbsp;</div>
+                <div id="layer2">&nbsp;</div>
+                <div id="layer1">&nbsp;</div>
+            </div>
+        <!-- ------------------------- -->
+            <div id="selected-items">
+                    <div id="ratesinside">
+                        <h4>Bill</h4>
+                        <p id="itemsonlist"></p>
+                    </div>
+                <div id="total_price">
+                    <!-- Total :- &nbsp;<p id=""></p> -->
+                </div>
+           </div>
+</div>
+
+    <!-- button at footer -->
+    <div id="footer">
+        <button onclick = "change_state(this.id)" id="Chocolate" >Chocolate</button>
+        <button onclick = "change_state(this.id)" id="Strawberry">Strawberry</button>
+        <button onclick = "change_state(this.id)" id="Butter Scotch">Butter Scotch</button>
+        <button onclick = "change_state(this.id)" id="Vanilla">Vanilla</button>
+        <button onclick = "change_state(this.id)" id="Red Velvet">Red Velvet</button>
+        <button onclick = "cake_show()" id="Pay" style="background-color:green;" >Pay</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
